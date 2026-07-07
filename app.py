@@ -91,4 +91,4 @@ def stats():
 
 if __name__ == "__main__":
     logger.info(f"Starting Todo API v{VERSION} on port {PORT} [{ENV}]")
-    app.run(host="0.0.0.0", port=PORT) # nosec B104
+    app.run(host="0.0.0.0", port=PORT)  # nosec B104
