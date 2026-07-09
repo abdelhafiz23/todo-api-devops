@@ -15,7 +15,7 @@ logging.basicConfig(
 logger = logging.getLogger(__name__)
 
 todos = [
-    {"id": 1, "title": "Apprendre DevOps", "done": False},
+    {"id": 1, "title": "Apprendre DevOps ", "done": False},
     {"id": 2, "title": "Maitriser Kubernetes", "done": False},
     {"id": 3, "title": "Deployer avec GitOps", "done": False},
 ]
